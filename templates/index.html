@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>PerfectPresent</title>
+  </head>
+  <body>
+    <header>
+      <div class="navbar">
+        
+        <div class="logo">
+          <h2>PrefectPresent</h2>
+        </div>
+        
+      </div>
+    </header>
+
+    <main>
+      <section class="showcase">
+        <form id="image-form" action="/" method="post">
+
+          <div class="form-control">
+            <input type="text" id="prompt" name="prompt" placeholder="Write something about the person" required>
+          </div>
+
+          <div class="form-control">
+            <input type="text" id="price" name="price" placeholder="Mention the price range" required>
+          </div>
+          
+          <input type="submit" value="Submit" class="btn">
+
+        </form>
+        <div id="result">{{ result }}</div> 
+      </section>
+    </main>
+
+  </body>
+</html>
