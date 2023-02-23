@@ -6,7 +6,7 @@ from bs4 import BeautifulSoup
 import os
 import matplotlib.pyplot as plt
 
-openai.api_key = "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"
+openai.api_key = "api_key"
 
 app = Flask(__name__)
 
